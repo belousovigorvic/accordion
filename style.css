@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #c9c9c9;
+}
+body {
+    background-color: #313131;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+img {
+    width: 20px;
+}
+.accordion {
+    margin-top: 50px;
+    border: 1px solid #626262;
+    background-color: #262626;
+}
+.accordion__group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #626262;
+    padding: 10px;
+}
+.accordion__name {
+    margin-left: 10px;
+}
+.accordion__item {
+    background: #151515;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+    padding: 0px 10px;
+    text-align: left;
+    line-height: 25px;
+}
+.activeButton {
+    transition: transform 0.2s;
+}
+.active {
+    height: 100px;
+}
+.animation {
+    transform: rotate(90deg);
+}
